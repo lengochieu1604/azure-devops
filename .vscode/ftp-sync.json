@@ -1,0 +1,27 @@
+{
+    "remotePath": "/home/al2",
+    "host": "20.74.248.181",
+    "username": "al2",
+    "password": "Azure@123456",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ".tf, .yaml, .yml"
+        ],
+        "path": ""
+    }
+}

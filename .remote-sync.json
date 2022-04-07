@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": false,
+  "hostname": "20.74.248.181",
+  "port": "22",
+  "target": "/home/al2",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "al2",
+  "password": "Azure@123456",
+  "watch": [],
+  "transport": "scp"
+}
