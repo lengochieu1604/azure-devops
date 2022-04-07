@@ -41,8 +41,8 @@ module "virtualMachine_linux_win" {
   #AKS & ACR#
   var_resource_group_aks = "AKS-RG"
   var_location_aks       = "Australia East"
-  var_acr                = "acrlengochieu"
-  var_aks                = "myakslengochieu"
+  var_acr                = ""
+  var_aks                = ""
   var_role_aks           = "AcrPull"
 
   #POSTGRES DATABASE
