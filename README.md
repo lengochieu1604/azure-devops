@@ -32,10 +32,7 @@
  
 ## CHAPTER 1 	OBJECTIVES
     In my project. I will use terraform and ansible to build an infrastructure as code and deploy infrastructure in Azure Cloud
-    
-
-
- 
+     
 ## CHAPTER 2 	INTRODUCTION 
 ### 2.1	Get Started
     This assignment includes 5 main components: 
@@ -47,13 +44,10 @@
 
     Architecture of assignment:
 ![image](https://user-images.githubusercontent.com/98753976/162356085-78145619-a5b5-4683-9928-d93de956b78d.png)
-
-
  
 ### 2.2	Prerequisites
 ### 2.2.1	Software version information
 ![image](https://user-images.githubusercontent.com/98753976/162356069-a596669c-1a6e-4cbc-8397-786766450940.png)
-
 
 ### 2.2.2	Install Ansible, Terraform and AzureCLI
     First of all, we will install AzureCLI, Ansible and Terraform using documentation below:
@@ -63,9 +57,8 @@
     
 ### 2.2.3	Setup Environments
 ### 2.2.3.1	Login to Azure
-	Run the following command to log into Azure:
-o	az login
-
+    Run the following command to log into Azure:
+        o	az login
 
 ### 2.2.3.2	Terraform Init
     Run the following command to init terraform:
@@ -87,12 +80,12 @@ o	az login
     
     Also note that host key checking in paramiko mode is reasonably slow, therefore switching to ‘ssh’ is also recommended when using this feature.
     
-    Ansible will log some information about module arguments on the remote system in the remote syslog, unless a task or play is marked with a “no_log: True” 
-    attribute. This is explained later.
+    Ansible will log some information about module arguments on the remote system in the remote syslog, unless a task or play is marked with a 
+    “no_log: True” attribute. This is explained later.
     
-    To enable basic logging on the control machine see Configuring Ansible document and set the ‘log_path’ configuration file setting. Enterprise users may also be     
-    interested in Ansible Tower. Tower provides a very robust database logging feature where it is possible to drill down and see history based on hosts, projects, and 
-    particular inventories over time –
+    To enable basic logging on the control machine see Configuring Ansible document and set the ‘log_path’ configuration file setting. 
+    Enterprise users may also be interested in Ansible Tower. Tower provides a very robust database logging feature where it is possible to drill down
+    and see history based on hosts, projects, and particular inventories over time –
  
 
 
