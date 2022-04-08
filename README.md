@@ -30,36 +30,9 @@
     4.4	Troubleshooting in Helm Chart	19
     
  
-CHAPTER 1 	OBJECTIVES
-	In my project. I will use terraform and ansible to build an infrastructure as code and deploy infrastructure in Azure Cloud
-1.1	Infrastructure Deployment requirements
-1.	Azure Virtual Machine: provision (Terraform CLI, AWX – Ansible Tower, Jenkins, Gitlab CE) 
-2.	Azure Application Gateway
-3.	Azure Web Application Firewall (WAF)
-4.	Azure Load Balancer
-5.	Azure Kubernetes Service (AKS) – Setup scale set
-1.2	CI/CD Tools Deployment requirements
-1.	Install Terraform CLI and use it to build Infrastructure As Code
-2.	Deploy gitlab CE
-3.	Deploy Jenkins Server – Jenkins Slave
-1.3	Configuration requirements
-1.	Configure Terraform to deploy Infrastructure As Code
-2.	Configure Ansible to install tools (Jenkins, Gitlab, etc.) on Virtual Machine 
-3.	At Frontend Gitlab repository, add Jenkinsfile file to automate build and deployments. Apply for master branch with released tag.
-4.	At Backend Gitlab repository, add Jenkinsfile to automate build and deployments. Apply for master branch with released tag.
-5.	Configure NGINX to listen http/https protocol. 
-6.	Configure TLS/SSL
-7.	Configure NGINX to allow http/https protocol access via any IP
-8.	Configure Jenkins Server connect Jenkins Slave
-1.4	Microservice/Application Deployment requirements
-1.	Deploy postgres
-2.	Deploy phppgadmin
-3.	Deploy Frontend (Angular)
-4.	Deploy Backend (Nodejs)
-1.5	New Relic Deployment requirements
-1.	Deploy New Relic Infra Agent
-2.	Deploy New Relic Logging Agent
-3.	Deploy New Relic APM Agent
+## CHAPTER 1 	OBJECTIVES
+    In my project. I will use terraform and ansible to build an infrastructure as code and deploy infrastructure in Azure Cloud
+    
 
 
  
